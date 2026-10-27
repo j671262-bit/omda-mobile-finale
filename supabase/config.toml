@@ -1,0 +1,4 @@
+# Les fonctions du parcours candidat sont publiques par conception (aucun compte candidat).
+# Elles valident les entrées et utilisent le service role uniquement côté serveur.
+[functions.candidat-creer-demande]
+verify_jwt = false
